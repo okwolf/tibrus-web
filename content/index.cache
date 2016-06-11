@@ -1,0 +1,1033 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="description" content="Excellent Rock &amp; Roll from Washington DC" />
+        <meta name="keywords" content="Tibrus, band, music, Washington DC, rock, rock and roll, metal, wolfgang, coffey, wedemeyer, david, mixed fuel, burn, driving, politics 666, Love Me Computer, I Died for You Twice, I'm Not Over You, Fusion Locomotion, Fråga, fraga, SOAD Blows, Nur Im Traum, Not Dead Yet, Take Me Away, Fake People"/>
+        <title>Tibrus</title>
+        <link rel="stylesheet" href="css/960.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/page-player.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/slimbox.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/song-menu.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/text.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="css/tibrus.css" type="text/css" media="screen"/>
+        	<!--[if lte IE 7]>
+		<style type="text/css">
+			ul#player {margin-top:174px;}
+		</style>
+	<![endif]-->
+	<!--[if IE 6]>
+		<style type="text/css">
+			img, div, a, h3 {
+			    behavior: url(js/iepngfix.htc)
+			}
+			ul.playlist li {
+				padding: 0.5em 1em;
+			}
+			ul#player {margin-top:170px;}
+		</style>
+	<![endif]-->    </head>
+    <body>
+        <div id="all" class="container_12">
+            <br/>
+            <div class="grid_5">
+                <div id="bandPhoto">
+                    <a href="images/band_photo_01.jpg" rel="lightbox-bandPhoto"><img src="images/band_photo.jpg" alt="Photo 1 of Tibrus" /></a>
+                </div>
+                <div id="bandPhotoThumbContainer">
+                    <a href="images/band_photo_02.jpg" class="bandPhotoThumb" id="thumb2" rel="lightbox-bandPhoto">Photo 2 of Tibrus</a>
+                    <a href="images/band_photo_03.jpg" class="bandPhotoThumb" id="thumb3" rel="lightbox-bandPhoto">Photo 3 of Tibrus</a>
+                    <a href="images/band_photo_04.jpg" class="bandPhotoThumb" id="thumb4" rel="lightbox-bandPhoto">Photo 4 of Tibrus</a>
+                </div>
+                <div id="webIcons"><div class="iconBar">		<a href="http://www.myspace.com/tibrusmusic" class="webIcon myspace" title="MySpace">MySpace</a>		<a href="http://www.ilike.com/artist/Tibrus" class="webIcon ilike" title="iLike">iLike</a>		<a href="http://www.facebook.com/pages/Tibrus/163950569917" class="webIcon facebook" title="Facebook">Facebook</a>		<a href="http://www.twitter.com/tibrus" class="webIcon twitter" title="Twitter">Twitter</a>		<a href="http://www.last.fm/music/Tibrus" class="webIcon lastfm" title="Last.fm">Last.fm</a>		<a href="http://www.bebo.com/tibrus" class="webIcon bebo" title="Bebo">Bebo</a>		<a href="http://www.reverbnation.com/tibrus" class="webIcon reverbnation" title="ReverbNation">ReverbNation</a>		<a href="http://www.imeem.com/tibrus" class="webIcon imeem" title="imeem">imeem</a>		<span class="webIcon pandora" title="Pandora (Coming Soon)">Pandora (Coming Soon)</span></div><br /><div class="iconBar">		<a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?i=331676492&amp;id=331676039&amp;s=143441&amp;uo=6" class="webIcon itunes" title="iTunes">iTunes</a>		<a href="http://amzn.com/B002S51KV8" class="webIcon amazon" title="Amazon">Amazon</a>		<span class="webIcon amiestreet" title="Amie Street (Coming Soon)">Amie Street (Coming Soon)</span>		<a href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506" class="webIcon limewire" title="LimeWire">LimeWire</a>		<a href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel" class="webIcon shockhound" title="Shockhound">Shockhound</a>		<a href="http://free.napster.com/view/album/index.html?id=13361044" class="webIcon napster" title="Napster">Napster</a>		<a href="http://www.lala.com/album/2306124486335689671" class="webIcon lala" title="Lala">Lala</a>		<a href="http://www.amazon.com/gp/product/B002PA0FRG" class="webIcon amazonmp3" title="Amazon MP3">Amazon MP3</a>		<a href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html" class="webIcon emusic" title="eMusic">eMusic</a>		<span class="webIcon rhapsody" title="Rhapsody (Coming Soon)">Rhapsody (Coming Soon)</span></div></div>            </div>
+            <div class="grid_7" id="player-container">
+                <div id="player-controls">
+	<div id="player-buttons">
+		<div class="player-button" id="player-prev">Previous</div>
+		<div class="player-button" id="player-play">Play/Pause</div>
+		<div class="player-button" id="player-next">Next</div>
+		<div class="player-button" id="player-mute">Mute</div>
+		<div id="volume">
+			<div class="marker"></div>
+			<div class="slider">
+				<div class="knob"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<ul id="player" class="playlist shiny">
+    <li id="mixed_fuel" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/mixed_fuel.m4a">Mixed Fuel</a>
+	<ul id="mixed_fuel-menu" class="songMenu">
+		<li>
+			<a href="#mixed_fuel-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=mixed_fuel" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=Mixed+Fuel">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Mixed-Fuel/dp/B002PB0DG8">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="burn" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/burn-edit.m4a">Burn <img class="sample-indicator" src="images/sample_song_icon.png" alt="(partial sample)" /><span class="sample-indicator">(partial sample)</span></a>
+	<ul id="burn-menu" class="songMenu">
+		<li>
+			<a href="#burn-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=burn" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=Burn">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Burn/dp/B002PAV38G">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="driving" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/driving.m4a">Driving</a>
+	<ul id="driving-menu" class="songMenu">
+		<li>
+			<a href="#driving-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=driving" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=Driving">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Driving/dp/B002PAT5WC">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="politics_666" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/politics_666-edit.m4a">Politics 666 <img class="sample-indicator" src="images/sample_song_icon.png" alt="(partial sample)" /><span class="sample-indicator">(partial sample)</span></a>
+	<ul id="politics_666-menu" class="songMenu">
+		<li>
+			<a href="#politics_666-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=politics_666" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=Politics+666">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Politics-666-Explicit/dp/B002PAYHP2">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="love_me_computer" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/love_me_computer-edit.m4a">Love Me Computer <img class="sample-indicator" src="images/sample_song_icon.png" alt="(partial sample)" /><span class="sample-indicator">(partial sample)</span></a>
+	<ul id="love_me_computer-menu" class="songMenu">
+		<li>
+			<a href="#love_me_computer-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=love_me_computer" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=Love+Me+Computer">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Love-Me-Computer/dp/B002PAT5YA">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="i_died_for_you_twice" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/i_died_for_you_twice-edit.m4a">I Died for You Twice <img class="sample-indicator" src="images/sample_song_icon.png" alt="(partial sample)" /><span class="sample-indicator">(partial sample)</span></a>
+	<ul id="i_died_for_you_twice-menu" class="songMenu">
+		<li>
+			<a href="#i_died_for_you_twice-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=i_died_for_you_twice" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=I+Died+for+You+Twice">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/I-Died-for-You-Twice/dp/B002PAYHQQ">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="im_not_over_you" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/im_not_over_you-edit.m4a">I'm Not Over You <img class="sample-indicator" src="images/sample_song_icon.png" alt="(partial sample)" /><span class="sample-indicator">(partial sample)</span></a>
+	<ul id="im_not_over_you-menu" class="songMenu">
+		<li>
+			<a href="#im_not_over_you-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=im_not_over_you" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=I%27m+Not+Over+You">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Im-Not-Over-You/dp/B002PAYHUM">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="fusion_locomotion" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/fusion_locomotion-edit.m4a">Fusion Locomotion <img class="sample-indicator" src="images/sample_song_icon.png" alt="(partial sample)" /><span class="sample-indicator">(partial sample)</span></a>
+	<ul id="fusion_locomotion-menu" class="songMenu">
+		<li>
+			<a href="#fusion_locomotion-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=fusion_locomotion" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=Fusion+Locomotion">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Fusion-Locomotion/dp/B002PAWJSE">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="fraga" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/fraga.m4a">Fr&aring;ga (radio edit)</a>
+	<ul id="fraga-menu" class="songMenu">
+		<li>
+			<a href="#fraga-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=fraga" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=Fraga">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Fr%C3%A5ga/dp/B002PB0DT0">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="soad_blows" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/soad_blows-edit.m4a">SOAD Blows <img class="sample-indicator" src="images/sample_song_icon.png" alt="(partial sample)" /><span class="sample-indicator">(partial sample)</span></a>
+	<ul id="soad_blows-menu" class="songMenu">
+		<li>
+			<a href="#soad_blows-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=soad_blows" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=Soad+Blows">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Soad-Blows/dp/B002PAWJXE">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="nur_im_traum" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/nur_im_traum-edit.m4a">Nur Im Traum <img class="sample-indicator" src="images/sample_song_icon.png" alt="(partial sample)" /><span class="sample-indicator">(partial sample)</span></a>
+	<ul id="nur_im_traum-menu" class="songMenu">
+		<li>
+			<a href="#nur_im_traum-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=nur_im_traum" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=Nur+Im+Traum">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Nur-Im-Traum/dp/B002PAV3SG">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="not_dead_yet" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/not_dead_yet-edit.m4a">Not Dead Yet <img class="sample-indicator" src="images/sample_song_icon.png" alt="(partial sample)" /><span class="sample-indicator">(partial sample)</span></a>
+	<ul id="not_dead_yet-menu" class="songMenu">
+		<li>
+			<a href="#not_dead_yet-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=not_dead_yet" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=Not+Dead+Yet">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Not-Dead-Yet/dp/B002PB0DY0">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="take_me_away" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/take_me_away-edit.m4a">Take Me Away <img class="sample-indicator" src="images/sample_song_icon.png" alt="(partial sample)" /><span class="sample-indicator">(partial sample)</span></a>
+	<ul id="take_me_away-menu" class="songMenu">
+		<li>
+			<a href="#take_me_away-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=take_me_away" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=Take+Me+Away">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Take-Me-Away/dp/B002PAWK2O">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li><li id="fake_people" class="playlistSong">
+	<ul><li><p></p><span></span></li></ul> 
+    <a href="samples/fake_people-edit.m4a">Fake People <img class="sample-indicator" src="images/sample_song_icon.png" alt="(partial sample)" /><span class="sample-indicator">(partial sample)</span></a>
+	<ul id="fake_people-menu" class="songMenu">
+		<li>
+			<a href="#fake_people-lyrics" class="songLyricsLink songLink">Lyrics</a>
+		</li>
+		<li>
+			<a href="buy.php?song=fake_people" class="songBuyLink songLink">Buy</a>
+			<ul>
+				<li>
+					<a class="storeLink" href="http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=Fake+People">iTunes</a>
+			<a class="storeLink" href="http://amzn.com/B002S51KV8">Amazon</a>
+			<a class="storeLink" href="http://www.store.limewire.com/store/app/pages/album/Album/productId/335506">LimeWire</a>
+			<a class="storeLink" href="http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel">Shockhound</a>
+			<a class="storeLink" href="http://free.napster.com/view/album/index.html?id=13361044">Napster</a>
+			<a class="storeLink" href="http://www.lala.com/album/2306124486335689671">Lala</a>
+			<a class="storeLink" href="http://www.amazon.com/Fake-People/dp/B002PB0E2G">Amazon MP3</a>
+			<a class="storeLink" href="http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html">eMusic</a>
+			
+				</li>
+			</ul>
+		</li>
+	</ul>
+</li>
+</ul>
+<div id="playing">
+</div>
+<div id="control-template">
+    <div class="controls">
+        <div class="statusbar">
+            <div class="loading">
+            </div>
+            <div class="position">
+            </div>
+        </div>
+    </div>
+    <div class="timing">
+        <div id="sm2_timing" class="timing-data">
+            <span class="sm2_position">%s1</span>
+            / <span class="sm2_total">%s2</span>
+        </div>
+    </div>
+    <div class="peak">
+        <div class="peak-box">
+            <span class="l"></span>
+            <span class="r"></span>
+        </div>
+    </div>
+</div>
+<div id="spectrum-container" class="spectrum-container">
+    <div class="spectrum-box">
+        <div class="spectrum">
+        </div>
+    </div>
+</div>            </div>
+            <div class="grid_12">
+                <div id="tabNav">
+                    <div id="about" class="tabs selected">
+                        About
+                    </div>
+                    <div id="lyrics" class="tabs">
+                        Lyrics
+                    </div>
+                    <div id="shows" class="tabs">
+                        Shows
+                    </div>
+                </div>
+            </div>
+            <div id="aboutContent" class="tabPane">
+                <div class="grid_12">
+                    <div class="box">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            About Us
+        </span>
+    </h3>
+    <div class="boxContent">
+        <p>
+    Tibrus has been making music since 2003, when it was formed to fulfill a final project in a high school music class. Their latest album, Mixed Fuel, was largely recorded in 2005, although some of the music was written in 2003. It wasn't finished until 2009 due to a hiatus to attend college, during which time an excessive amount of partying prevented the completion of the album. Since graduation, there has been a renewed effort by the two of us to get back to what we love most&mdash;making great music.
+</p>
+<br/>
+<p>
+	Tibrus is:<br/>
+	David 'Wolfgang' Wedemeyer: Guitars, Bass<br/>
+	David Coffey: Drums, Keyboards, Vocals (except where noted)<br/>
+	Music by Tibrus<br/>
+	Mixed Fuel was produced, recorded, mixed, and mastered by Tibrus<br/>
+	<br/>
+	Very special thanks to the Wedemeyer family for letting us bang really loud drums in your basement all summer. Thanks to Wolfgang and Cassie for doing some ass kicking to get this thing finished. Additional thanks to Lily for inspiring a song deserving of German aggression, and to Dero Goi of <a class="outgoing" href="http://www.oomph.de">OOMPH!</a> and Chris Grantham for German editing assistance.<br/>
+</p>
+
+    </div>
+    <div class="boxFooter"></div>
+</div>                </div>
+            </div>
+            <div id="showsContent" class="tabPane">
+                <div class="grid_12">
+                    <div class="box">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            Shows
+        </span>
+    </h3>
+    <div class="boxContent">
+        There are no shows scheduled at this time.
+    </div>
+    <div class="boxFooter"></div>
+</div>                </div>
+            </div>
+            	<div id="lyricsContent" class="tabPane">
+        <div class="grid_6"><a name="mixed_fuel-lyrics"></a>
+<div id="mixed_fuel-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            Mixed Fuel
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/mixed_fuel.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Song
+		</a>
+		
+        Instrumental
+    </div>
+    <div class="boxFooter"></div>
+</div><a name="burn-lyrics"></a>
+<div id="burn-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            Burn
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/burn-edit.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Sample
+		</a>
+		
+        Do you think I look calm?<br/>
+I'm feeling like building a bomb<br/>
+I will mess you up<br/>
+I will screw you up<br/>
+<br/>
+Burn man burn<br/>
+Burn until you learn<br/>
+Learn to feel me<br/>
+Do you feel me?<br/>
+<br/>
+Pain is what I feel<br/>
+Cause you make what is real<br/>
+I will mess you up<br/>
+I will screw you up<br/>
+    </div>
+    <div class="boxFooter"></div>
+</div><a name="driving-lyrics"></a>
+<div id="driving-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            Driving
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/driving.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Song
+		</a>
+		<em>Written and performed by David "Wolfgang" Wedemeyer</em><br/><br/>
+        Sometimes when I just don't know where to turn<br/>
+In this life with miles to burn<br/>
+Cities, the places that I have called home (my own)<br/>
+Time to leave, time to be all on my own (I'm home)<br/>
+<br/>
+On my way now no need to pack<br/>
+Just jump in that front seat and pull right back<br/>
+On the little lever that holds me still<br/>
+Then crank up the starter it's such a thrill<br/>
+<br/>
+To be driving, don't know where to<br/>
+But I'm driving and so can you<br/>
+I'm driving, to twist and twine<br/>
+When I'm driving I feel fine<br/>
+<br/>
+Troubles, past those more than ten miles ago (no woes)<br/>
+Fear and doubt can't catch me they move too slow (no)<br/>
+Reasons, there's no need for me to explain (my brain)<br/>
+Driving it helps me get rid of the pain (stay sane)<br/>
+<br/>
+Now it's time to pick up the pace<br/>
+Put my foot down quickly it's like a race<br/>
+To the furthest place from what I can see<br/>
+And it helps me to clear out my memory<br/>
+<br/>
+To be driving this road I'm on<br/>
+When I'm driving I'm not a pawn<br/>
+Problems spewing out my exhaust<br/>
+I've been driving so long now I'm lost<br/>
+<br/>
+Maybe I've gone just a little bit too far<br/>
+It makes me wonder why we are<br/>
+Running in circles but running from nothing<br/>
+All of this rushing - so overwhelming<br/>
+<br/>
+Time to slow down now, life's meant to be savored<br/>
+Not just zoom by cause that's unflavored<br/>
+Familiar roads I can see in the distance<br/>
+No more resistance<br/>
+<br/>
+It makes me twitchy<br/>
+So exciting<br/>
+For me<br/>
+To be driving<br/>
+    </div>
+    <div class="boxFooter"></div>
+</div><a name="politics_666-lyrics"></a>
+<div id="politics_666-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            Politics 666
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/politics_666-edit.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Sample
+		</a>
+		
+        Let's get fired up about politics!<br/>
+Yeah, where are my republicans? My democrats?<br/>
+We need everybody here in the house so we can have some chaos!<br/>
+Yeah, that's what this country is about<br/>
+Cause who wants to be an American idiot?<br/>
+Oh, enough of that stupid song already<br/>
+Fight, fight, fight, go!<br/>
+Woo!<br/>
+<br/>
+We're the Republicans and we'd like say<br/>
+That most of you are sinners and you hate us anyway<br/>
+You hate us because we stand up for what's right<br/>
+We wish that we could help but you insist that we fight<br/>
+<br/>
+Shut up!<br/>
+I've had enough of your shit!<br/>
+Politics, politics, politics<br/>
+Six six six<br/>
+Politics, politics six politics<br/>
+Poli-six six six<br/>
+Politics tics tics<br/>
+<br/>
+We're the Democrats and you can suck our dicks<br/>
+Cause we won't take no fucking shit from you hypocrites<br/>
+If you tell us one more lie we'll make a movie about you<br/>
+And sing angry songs and talk trash about you<br/>
+<br/>
+Yeah, so do you understand me?<br/>
+I don't care about this<br/>
+I don't care about politics<br/>
+Yeah, I just want to sit on my sofa<br/>
+Read my magazine and watch the TV screen<br/>
+    </div>
+    <div class="boxFooter"></div>
+</div><a name="love_me_computer-lyrics"></a>
+<div id="love_me_computer-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            Love Me Computer
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/love_me_computer-edit.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Sample
+		</a>
+		
+        There she is on the other side of my screen<br/>
+I can reach out my hand, but I can't feel her face<br/>
+I can only imagine how she would feel to me<br/>
+My hand hits a wall of glass<br/>
+<br/>
+Internet Explorer Version 6.0<br/>
+Just isn't enough to make me go<br/>
+I am loved by the world, by a lovely girl<br/>
+Computer, make me feel loved<br/>
+<br/>
+I can look but she won't respond to my feelings<br/>
+I wanna reach out and grab her, pull her into my reality<br/>
+I could die right here, her face as still as stone<br/>
+My heart leaps out of my chest<br/>
+    </div>
+    <div class="boxFooter"></div>
+</div><a name="i_died_for_you_twice-lyrics"></a>
+<div id="i_died_for_you_twice-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            I Died for You Twice
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/i_died_for_you_twice-edit.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Sample
+		</a>
+		<em>Written and performed by Kevin Sadler</em><br/><br/>
+        First, there was a girl<br/>
+And she was my heart<br/>
+And she was my world<br/>
+My friend I'd love to the end<br/>
+<br/>
+My only thought<br/>
+Is that you were happy and true<br/>
+And when you needed something<br/>
+I was the one you'd look to<br/>
+<br/>
+And I died for you twice<br/>
+I'd do it again<br/>
+You were my life and my soul resides<br/>
+In a world with no feeling<br/>
+My words are revealing<br/>
+I was a fool<br/>
+I was a joke and this was a game<br/>
+<br/>
+And hell, I should be bitter<br/>
+I should be mad - what does it matter?<br/>
+I'll live and I'll die<br/>
+You killed me again<br/>
+<br/>
+Love lasts like lullabies in time<br/>
+The lives of our children are born on that rhyme<br/>
+Trust me once for the good times we've had<br/>
+Learn from the memories and don't feel that bad<br/>
+<br/>
+Know that I did it for you<br/>
+I did it for love<br/>
+For millions of men in their lifetime<br/>
+Who would try for somebody else<br/>
+Would cry for somebody else<br/>
+Die for somebody else<br/>
+<br/>
+I have tried<br/>
+I have cried<br/>
+I have died<br/>
+For you<br/>
+
+    </div>
+    <div class="boxFooter"></div>
+</div><a name="im_not_over_you-lyrics"></a>
+<div id="im_not_over_you-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            I'm Not Over You
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/im_not_over_you-edit.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Sample
+		</a>
+		
+        There's a love in the air today<br/>
+And it makes me want to stay<br/>
+But it makes me stay away<br/>
+Cause I'm not over you<br/>
+<br/>
+And the little I can do<br/>
+It won't be enough for you<br/>
+Not with what I have today<br/>
+But maybe someday soon<br/>
+<br/>
+You can't stop change<br/>
+The world changes every day<br/>
+I'm no exception<br/>
+And I'm certainly not going away<br/>
+<br/>
+So I don't know to do<br/>
+But I know that I love you<br/>
+And I'll sit here in my room<br/>
+'Til I get over you<br/>
+<br/>
+And there's plenty I could do<br/>
+If I wanted to get you<br/>
+I'm just not feeling that today<br/>
+But maybe someday soon<br/>
+    </div>
+    <div class="boxFooter"></div>
+</div>        </div>
+		<div class="grid_6"><a name="fusion_locomotion-lyrics"></a>
+<div id="fusion_locomotion-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            Fusion Locomotion
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/fusion_locomotion-edit.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Sample
+		</a>
+		
+        Instrumental
+    </div>
+    <div class="boxFooter"></div>
+</div><a name="fraga-lyrics"></a>
+<div id="fraga-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            Fr&aring;ga
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/fraga.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Song
+		</a>
+		
+        You, you make me feel so anxious<br/>
+What, what will you do to me?<br/>
+<br/>
+Will you give it me?<br/>
+Are you gonna give it to me?<br/>
+I need it give it to me<br/>
+C'mon and give it to me<br/>
+<br/>
+I feel nothing<br/>
+I need to feel something other<br/>
+I don't feel nothing<br/>
+I need your something<br/>
+<br/>
+I, I want you to rape me<br/>
+Make, make me feel safe forever<br/>
+    </div>
+    <div class="boxFooter"></div>
+</div><a name="soad_blows-lyrics"></a>
+<div id="soad_blows-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            SOAD Blows
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/soad_blows-edit.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Sample
+		</a>
+		
+        I am System Of A Down and I like to criticize people<br/>
+Without using my brain to consider any other point of view<br/>
+I am so narrow minded, I open my mouth before I think<br/>
+And I really can't believe that I really have my own CD<br/>
+<br/>
+I am smart and you are stupid<br/>
+I am smart and you are dumb<br/>
+<br/>
+I was not aware that other people could have a different<br/>
+Perspective on the world because I thought that everyone was just like me<br/>
+I am so cool, I am so awesome, because I am in a band<br/>
+And everybody worships me, I am so awesome, I love me<br/>
+<br/>
+Blastoff!<br/>
+    </div>
+    <div class="boxFooter"></div>
+</div><a name="nur_im_traum-lyrics"></a>
+<div id="nur_im_traum-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            Nur Im Traum
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/nur_im_traum-edit.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Sample
+		</a>
+		<em>Written and performed by David "Wolfgang" Wedemeyer<br/>
+Edited by Dero Goi of OOMPH! and Chris Grantham</em><br/><br/>
+        Es war einmal ein kleines Kind<br/>
+Das einst mein Freund war<br/>
+Es ist, so wie ich bevor ich<br/>
+Aufgewachsen bin<br/>
+<br/>
+Es spricht zu meiner Dame und glaubt<br/>
+Es hat eine Chance<br/>
+Kann es nicht seinen Mund halten<br/>
+Werd' ich's ihm schon beibringen<br/>
+<br/>
+Kannst du nicht sehen - und verstehen?<br/>
+Ich spreche über - dich und nur dich<br/>
+Deine Worte sind rau - ich denke nicht<br/>
+Du kannst danach handeln - zu erbärmlich<br/>
+<br/>
+Du hast kranke Träume - denkst du denn wirklich<br/>
+Sie gehört dir - und nicht mehr mir<br/>
+Will ich es dir ganz - einfach erklären<br/>
+So gut wie ich kann - hörst du mich nicht?<br/>
+<br/>
+Sie ist meine Frau - wenn sie nach mir fragt<br/>
+Weißt du sie - wird dir nie gehören<br/>
+Es ist an der Zeit - zu verstehen<br/>
+Du bist nur mit ihr - im Traum zusammen<br/>
+<br/>
+Du denkst du bist schlau aber wenn du's bist<br/>
+Würdest du sie nicht verfolgen <br/>
+Du willst mit ihr schlafen, ich werd' dir dafür<br/>
+Den ewigen Schlaf schenken<br/>
+<br/>
+Warum gehst du nicht?<br/>
+Du wirst mich nicht mögen<br/>
+Wenn ich hier bin<br/>
+Ich hab dich gewarnt<br/>
+<br/>
+Du gehst mir unter die Haut<br/>
+Du bist wie ein Geschwür<br/>
+Das ich aus unserem<br/>
+Dasein entfernen muss<br/>
+<br/>
+Doch sie ist mein Schatz - wenn sie mich begehrt<br/>
+Weißt du sie - wird dir nie gehören<br/>
+Du musst dir - selber eingestehen<br/>
+Nur im Traum - wirst du sie sehen<br/>
+    </div>
+    <div class="boxFooter"></div>
+</div><a name="not_dead_yet-lyrics"></a>
+<div id="not_dead_yet-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            Not Dead Yet
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/not_dead_yet-edit.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Sample
+		</a>
+		
+        Being overrun by the punk, by the pop<br/>
+By the grunge rock potheads and the hip-hop thugs<br/>
+A decade and a half of underground living<br/>
+Carried on by the resolute few
+<br/>
+Metal is the sound that we've all come to know<br/>
+It's the sound of our burning hearts<br/>
+Some may say metal's seen better days<br/>
+But here the new beginning starts<br/>
+<br/>
+Metal, you're not dead yet<br/>
+No I say metal, you're not dead yet<br/>
+<br/>
+Angry sounds and angry words and over-frustrated tones
+Therapeutic sonic sessions sawing through your bones
+<br/>
+The songs for the deaf and the underground left and the anthems of the insecure<br/>
+Metal lives on in our souls and our hearts, of that you can be sure<br/>
+<br/>
+Metal, I breathe your life<br/>
+You're all we got left<br/>
+<br/>
+Metal you have life as long as I say so, yeah<br/>
+    </div>
+    <div class="boxFooter"></div>
+</div><a name="take_me_away-lyrics"></a>
+<div id="take_me_away-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            Take Me Away
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/take_me_away-edit.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Sample
+		</a>
+		
+        I wish you would put me to sleep I don't want to be here<br/>
+There's no escape when I'm awake I don't want to be here<br/>
+As far as I can tell there is no end to the pain<br/>
+It never stops I've tried to stop I'm going insane<br/>
+<br/>
+I hate you<br/>
+But I love you<br/>
+<br/>
+Take me away<br/>
+<br/>
+This is pointless I feel fine now I feel like crap<br/>
+Because you don't treat me the way that you said you would<br/>
+You stupid girl why don't you just tell me what you want<br/>
+How am I supposed to know when you won't even communicate<br/>
+    </div>
+    <div class="boxFooter"></div>
+</div><a name="fake_people-lyrics"></a>
+<div id="fake_people-lyrics" class="box lyricsBox">
+    <h3 class="boxHeader">
+        <span class="boxHeaderContent">
+            Fake People
+        </span>
+    </h3>
+    <div class="boxContent">
+		<a href="samples/fake_people-edit.m4a" class="playSong samplePaused exclude">
+			<span class="play-button"></span>
+			<span class="playText">Play</span>
+			<span class="pauseText">Pause</span>
+			Sample
+		</a>
+		
+        So someone who you think is cool turns out to be your worst fear<br/>
+Could be your boss or your girlfriend or your closest pal but it turns out they haven't been real<br/>
+<br/>
+They play all nice and act like your friend long enough to get you in their grasp<br/>
+And just when you think that things are cool they rape you in your ass<br/>
+<br/>
+Fake people everywhere<br/>
+What am I supposed to do?<br/>
+Fake people everywhere<br/>
+Watch out cause they're screwing you<br/>
+Fake people everywhere<br/>
+What am I supposed to say<br/>
+Fake people everywhere<br/>
+I wish that I could make them pay<br/>
+<br/>
+Fake people penetrate all of our society<br/>
+Infecting the government and various powerful agencies<br/>
+They hide in the ranks of corporations but you'll never know the place<br/>
+Until they want to steal from you that's when they show their real face<br/>
+    </div>
+    <div class="boxFooter"></div>
+</div>        </div>
+    </div>            <br/>
+        </div>
+        <script src="js/mootools.js" type="text/javascript"></script>
+<script src="js/soundmanager2-nodebug-jsmin.js" type="text/javascript"></script>
+<script src="js/tibrus.js" type="text/javascript"></script>
+<script src="js/page-player.js" type="text/javascript"></script>
+<script src="js/iepngfix_tilebg.js" type="text/javascript"></script>
+<script src="js/MenuMatic_0.68.3.js" type="text/javascript"></script>
+<script src="js/slimbox.js" type="text/javascript"></script>
+    </body>
+</html>

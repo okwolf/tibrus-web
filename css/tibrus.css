@@ -1,0 +1,487 @@
+body {
+    background: url(../images/giant_bg.jpg) scroll top center no-repeat #472311;
+    z-index: 0;
+    color: #fff;
+}
+
+a {
+    color: #8e593f;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+br {
+    clear: both;
+}
+
+#all {
+    margin-top: 260px;
+}
+
+div#soundmanager-debug {
+    /*
+     position: fixed;
+     right: 2em;
+     bottom: 2em;
+     width: 20em;
+     height: 20em;
+     border: 0.25em solid Black;
+     padding: 0.5em;
+     overflow: auto;
+     background: White;
+     */
+    display: none;
+}
+
+#tabNav div.tabs, #player-controls {
+    background-image: url(../images/backgrounds_sprite.png);
+}
+
+#player-controls .player-button, span.play-button, #volume .marker, #volume .slider .knob {
+    background-image: url(../images/player_controls.png);
+}
+
+#bandPhoto {
+    width: 100%;
+    text-align: right;
+    padding-top: 15px;
+}
+
+#bandPhoto img {
+    margin-right: 5px;
+    border: 5px solid #472311;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+#webIcons .iconBar {
+	float: right;
+}
+
+#webIcons .webIcon {
+    display: block;
+    float: left;
+    margin: 5px;
+    width: 16px;
+    height: 16px;
+    font-size: 0;
+    text-indent: -9999px;
+    background-image: url(../images/web_icons.png);
+}
+
+#webIcons span.webIcon {
+    opacity: 0.333;
+    filter: alpha( opacity = 33);
+}
+
+#webIcons .amazonmp3 {
+    background-position: 0px -80px;
+}
+
+#webIcons .amazon {
+    background-position: 0px -80px;
+}
+
+#webIcons .amiestreet {
+    background-position: 0px -96px;
+}
+
+#webIcons .bebo {
+    background-position: 0px -224px;
+}
+
+#webIcons .itunes {
+    background-position: 0px -112px;
+}
+
+#webIcons .emusic {
+    background-position: 0px -128px;
+}
+
+#webIcons .facebook {
+    background-position: 0px 0px;
+}
+
+#webIcons .ilike {
+    background-position: 0px -16px;
+}
+
+#webIcons .imeem {
+    background-position: 0px -256px;
+}
+
+#webIcons .twitter {
+	background-position: 0px -272px;
+}
+
+#webIcons .lala {
+    background-position: 0px -144px;
+}
+
+#webIcons .lastfm {
+    background-position: 0px -48px;
+}
+
+#webIcons .limewire {
+    background-position: 0px -160px;
+}
+
+#webIcons .myspace {
+    background-position: 0px -32px;
+}
+
+#webIcons .napster {
+    background-position: 0px -176px;
+}
+
+#webIcons .pandora {
+    background-position: 0px -64px;
+}
+
+#webIcons .reverbnation {
+    background-position: 0px -240px;
+}
+
+#webIcons .rhapsody {
+    background-position: 0px -192px;
+}
+
+#webIcons .shockhound {
+    background-position: 0px -208px;
+}
+
+.box {
+    position: relative;
+    color: #000;
+}
+
+.box .boxContent {
+    background-image: url(../images/paper_tile.jpg);
+    padding: 61px 10px 0px 10px;
+    line-height: 28px;
+    margin-top: -90px;
+    position: relative;
+    /* Test by Wolfgang: */
+    font-family: verdana;
+    -moz-border-radius-topleft: 2em;
+    -moz-border-radius-topright: 2em;
+    -webkit-border-top-left-radius: 2em;
+    -webkit-border-top-right-radius: 2em;
+    zoom: 1; /* IE hasLayout hack */
+}
+
+.box .boxHeader {
+    width: 282px;
+    height: 146px;
+    position: relative;
+    background-image: url(../images/box_header.png);
+    font-size: 13pt;
+    /* top: -73px; */
+    left: -24px;
+    z-index: 1;
+}
+
+.box .boxHeader .boxHeaderContent {
+    display: block;
+    padding: 57px 30px 0 35px;
+    text-align: center;
+    font-family: cursive;
+}
+
+div.box a.playSong {
+    display: block;
+    float: right;
+    cursor: pointer;
+    margin-top: -31px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.box a.playSong:hover {
+    text-decoration: underline;
+}
+
+a.samplePaused span.playText, a.samplePlaying span.pauseText {
+    display: inline;
+}
+
+a.samplePlaying span.playText, a.samplePaused span.pauseText {
+    display: none;
+}
+
+a span.play-button {
+    display: block;
+    width: 27px;
+    height: 27px;
+    float: left;
+    margin-right: 5px;
+}
+
+a.samplePaused span.play-button {
+    background-position: 0px -138px;
+}
+
+a.samplePlaying span.play-button {
+    background-position: -27px -138px;
+}
+
+.box .boxFooter {
+    background-image: url(../images/paper_edge_tile.png);
+    background-repeat: repeat-x;
+    height: 46px;
+}
+
+#player-container {
+    margin-top: -90px;
+}
+
+#player-controls {
+    width: 640px;
+    height: 177px;
+    position: absolute;
+    left: -40px;
+    top: 0px;
+    background-position: 0px -206px;
+    display: none;
+}
+
+#player-controls .player-button {
+    font-size: 0;
+    text-indent: -9999px;
+    float: left;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+#player-buttons {
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    zoom: 1;
+}
+
+#player-prev {
+    height: 46px;
+    width: 38px;
+    background-position: 0px 0px;
+    bottom: 14px;
+    left: 0px;
+}
+
+#player-prev.hover {
+    background-position: 0 -46px;
+}
+
+#player-prev.active {
+    background-position: 0 -92px;
+}
+
+#player-next {
+    height: 46px;
+    width: 38px;
+    background-position: -38px 0;
+    bottom: 14px;
+    left: 82px;
+    z-index: 0;
+}
+
+#player-next.hover {
+    background-position: -38px -46px;
+}
+
+#player-next.active {
+    background-position: -38px -92px;
+}
+
+#player-play, #player-pause {
+    height: 59px;
+    width: 60px;
+    background-position: -136px 0;
+    bottom: 8px;
+    left: 30px;
+    z-index: 1;
+}
+
+#player-pause {
+    background-position: -76px 0;
+}
+
+#player-pause.hover {
+    background-position: -76px -59px;
+    z-index: 1;
+}
+
+#player-pause.active {
+    background-position: -76px -118px;
+}
+
+#player-play.hover {
+    background-position: -136px -59px;
+    z-index: 1;
+}
+
+#player-play.active {
+    background-position: -136px -118px;
+}
+
+#player-mute, #player-unmute {
+    height: 31px;
+    width: 31px;
+    bottom: 23px;
+    left: 190px;
+}
+
+#player-mute {
+    background-position: -196px 0;
+}
+
+#player-mute.hover {
+    background-position: -196px -31px;
+}
+
+#player-unmute {
+    background-position: -196px -62px;
+}
+
+#volume {
+    position: absolute;
+    height: 79px;
+    width: 218px;
+    left: 240px;
+    bottom: -3px;
+}
+
+#volume .marker {
+    background-position: 0px -177px;
+    position: absolute;
+    height: 65px;
+    width: 208px;
+    left: 6px;
+}
+
+#volume .slider {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    width: 208px;
+    height: 43px;
+}
+
+#volume .slider .knob {
+    background-position: -206px -93px;
+    cursor: pointer;
+    position: relative;
+    bottom: 0px;
+    right: 6px;
+    height: 43px;
+    width: 21px;
+}
+
+ul#player {
+    margin-top: 178px;
+}
+
+ul.playlist li a span.sample-indicator {
+    display: none;
+}
+
+ul.playlist li a img.sample-indicator {
+    vertical-align: middle;
+}
+
+/*
+ ul.playlist a.songLink {
+ font-size: 7pt;
+ padding: 0px 2px;
+ margin-right: 20px;
+ text-decoration: underline;
+ -moz-border-radius: 4px;
+ -webkit-border-radius: 4px;
+ }
+ */
+#tabNav {
+    height: 103px;
+}
+
+#tabNav div.tabs {
+    display: none;
+    cursor: pointer;
+    float: left;
+    height: 102px;
+    width: 177px;
+    font-size: 0;
+    text-indent: -9999px;
+}
+
+#tabNav .hover {
+	opacity: 0.666 !important;
+    filter: alpha( opacity = 66);
+}
+
+#tabNav .selected {
+	opacity: 1 !important;
+    filter: alpha( opacity = 100);
+}
+
+#lyricsContent, #showsContent {
+    display: block;
+}
+
+#about {
+    background-position: 0 0;
+}
+
+#about.hover, #about.selected {
+    background-position: 0 -103px;
+}
+
+#lyrics {
+    background-position: -177px 0;
+}
+
+#lyrics.hover, #lyrics.selected {
+    background-position: -177px -103px;
+}
+
+#shows {
+    background-position: -354px 0;
+}
+
+#shows.hover, #shows.selected {
+    background-position: -354px -103px;
+}
+#bandPhotoThumbContainer {
+	text-align:right;
+	margin:0 0 10px;
+	padding:0 5px 0 0;
+}
+.bandPhotoThumb {
+	height:38px;
+	width:38px;
+	display:inline-block;
+	background-image: url(../images/band_photo_thumb_sprite.jpg);
+	background-repeat:no-repeat;
+	font-size:0;
+	text-indent:-9999px;
+}
+#thumb2:hover{
+	background-position:0 -38px;
+}
+#thumb3 {
+	background-position:-38px 0;
+}
+#thumb3:hover {
+	background-position:-38px -38px;
+}
+#thumb4 {
+	background-position:-76px 0;
+}
+#thumb4:hover {
+	background-position:-76px -38px;
+}

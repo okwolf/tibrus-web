@@ -1,0 +1,42 @@
+<?php
+$itunesURLPrefix = 'http://itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?media=music&amp;artistTerm=Tibrus&amp;songTerm=';
+$stores = array(
+	'iTunes' => array('album' => 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?i=331676492&amp;id=331676039&amp;s=143441&amp;uo=6', 'songs' => array(
+		'burn' => $itunesURLPrefix . 'Burn',
+		'driving' => $itunesURLPrefix . 'Driving',
+		'fake_people' => $itunesURLPrefix . 'Fake+People',
+		'fraga' => $itunesURLPrefix . 'Fraga',
+		'fusion_locomotion' => $itunesURLPrefix . 'Fusion+Locomotion',
+		'i_died_for_you_twice' => $itunesURLPrefix . 'I+Died+for+You+Twice',
+		'im_not_over_you' => $itunesURLPrefix . 'I%27m+Not+Over+You',
+		'love_me_computer' => $itunesURLPrefix . 'Love+Me+Computer',
+		'mixed_fuel' => $itunesURLPrefix . 'Mixed+Fuel',
+		'not_dead_yet' => $itunesURLPrefix . 'Not+Dead+Yet',
+		'nur_im_traum' => $itunesURLPrefix . 'Nur+Im+Traum',
+		'politics_666' => $itunesURLPrefix . 'Politics+666',
+		'soad_blows' => $itunesURLPrefix . 'Soad+Blows',
+		'take_me_away' => $itunesURLPrefix . 'Take+Me+Away',)), 
+	'Amazon' => 'http://amzn.com/B002S51KV8',
+	'Amie Street' => NULL,
+	'LimeWire' => 'http://www.store.limewire.com/store/app/pages/album/Album/productId/335506',
+	'Shockhound' => 'http://www.shockhound.com/albums/456382-tibrus-mp3s-mixed-fuel',
+	'Napster' => 'http://free.napster.com/view/album/index.html?id=13361044',
+	'Lala' => 'http://www.lala.com/album/2306124486335689671',
+	'Amazon MP3' => array('album' => 'http://www.amazon.com/gp/product/B002PA0FRG', 'songs' => array(
+		'burn' => 'http://www.amazon.com/Burn/dp/B002PAV38G',
+		'driving' => 'http://www.amazon.com/Driving/dp/B002PAT5WC',
+		'fake_people' => 'http://www.amazon.com/Fake-People/dp/B002PB0E2G',
+		'fraga' => 'http://www.amazon.com/Fr%C3%A5ga/dp/B002PB0DT0',
+		'fusion_locomotion' => 'http://www.amazon.com/Fusion-Locomotion/dp/B002PAWJSE',
+		'i_died_for_you_twice' => 'http://www.amazon.com/I-Died-for-You-Twice/dp/B002PAYHQQ',
+		'im_not_over_you' => 'http://www.amazon.com/Im-Not-Over-You/dp/B002PAYHUM',
+		'love_me_computer' => 'http://www.amazon.com/Love-Me-Computer/dp/B002PAT5YA',
+		'mixed_fuel' => 'http://www.amazon.com/Mixed-Fuel/dp/B002PB0DG8',
+		'not_dead_yet' => 'http://www.amazon.com/Not-Dead-Yet/dp/B002PB0DY0',
+		'nur_im_traum' => 'http://www.amazon.com/Nur-Im-Traum/dp/B002PAV3SG',
+		'politics_666' => 'http://www.amazon.com/Politics-666-Explicit/dp/B002PAYHP2',
+		'soad_blows' => 'http://www.amazon.com/Soad-Blows/dp/B002PAWJXE',
+		'take_me_away' => 'http://www.amazon.com/Take-Me-Away/dp/B002PAWK2O')),
+	'eMusic' => 'http://www.emusic.com/album/Tibrus-Mixed-Fuel-MP3-Download/11651765.html',
+	'Rhapsody' => NULL);
+?>
